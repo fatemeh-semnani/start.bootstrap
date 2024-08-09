@@ -5,16 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./all.css">
     <link rel="stylesheet" href="./coming-soon.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
+<style>
+.dot{
+    position: absolute;
+    top: 50%;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    display: inline-block;
+  }
+</style>
 <body>
 
-    <video autoplay muted loop id="myVideo">
-        <source src="rain.mp4" type="video/mp4">
-        Your browser does not support HTML5 video.
-      </video>
     <div class="div-video">
-        <video class="video-backrand" autoplay muted><source src="./coming soon.mp4" type="video/mp4"></video>
+        <p class="black-cover"></p>
+        <video class="video-backrand" autoplay muted loop><source src="./v.mp4" type="video/mp4"></video>
     </div>
+
+    <main>
+        <div>
+            <h1 class="coming-soon">𝑶𝒖𝒓 𝑾𝒆𝒃𝒔𝒊𝒕𝒆 𝒊𝒔 <br> 𝑪𝒐𝒎𝒊𝒏𝒈 𝑺𝒐𝒐𝒏</h1>
+            <H3 class="coming w3-sans-serif">𝖶𝖾'𝗋𝖾 𝗐𝗈𝗋𝗄𝗂𝗇𝗀 𝗁𝖺𝗋𝖽 𝗍𝗈 𝖿𝗂𝗇𝗂𝗌𝗁 𝗍𝗁𝖾 𝖽𝖾𝗏𝖾𝗅𝗈𝗉𝗆𝖾𝗇𝗍 𝗈𝖿 𝗍𝗁𝗂𝗌<br> 𝗌𝗂𝗍𝖾. 𝖲𝗂𝗀𝗇 𝗎𝗉 𝖻𝖾𝗅𝗈𝗐 𝗍𝗈 𝗋𝖾𝖼𝖾𝗂𝗏𝖾 𝗎𝗉𝖽𝖺𝗍𝖾𝗌 𝖺𝗇𝖽 <br> 𝗍𝗈 𝖻𝖾 𝗇𝗈𝗍𝗂𝖿𝗂𝖾𝖽 𝗐𝗁𝖾𝗇 𝗐𝖾 𝗅𝖺𝗎𝗇𝖼𝗁!</H3>
+        </div>
+
+        <div>
+            <input type="text" id="input-placeholder" placeholder="Enter email address....">
+            <button class="desabled-button" disabled>NOTIFY ME!</button>
+        </div>
+    </main>
+
+    <div>
+        <div class="dot"><i class="fa-brands fa-facebook"></i></div>
+        <br>
+        <div class="dot"><i class="fa-brands fa-twitter"></i></div>
+        
+    </div>
+
 </body>
 </html>
