@@ -9,14 +9,13 @@ html,body{
     width: 100%;
 }
 
-.div-video{
+#b-co-div{
     position: fixed;
-    background-size: cover;
+    height: 800px;
 }
 
-.video-backrand{
-    height: 800px;
-    background-position: center;
+.div-video{
+    position: fixed;
     background-size: cover;
 }
 
@@ -24,12 +23,15 @@ html,body{
 .black-cover{
     background-color: black;
     opacity: 0.8;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 65%;
-    height: 100%;
+    position: fixed;
+    width: 51rem;
+    height: 100rem;
     clip-path: polygon(0 0, 100% 0, 87% 100%, 0% 100%);
+}
+
+.video-backgrand{
+    background-position: center;
+    background-size: cover;
 }
 
 .coming-soon{
@@ -64,7 +66,7 @@ html,body{
     background-color: rgb(128, 87, 44);
     opacity: 0.6;
     position: absolute;
-    top: 461px;
+    top: 70%;
     left: 490px;
     width: 120px;
     height: 64px;
