@@ -1,11 +1,54 @@
-@media screen and (min-width: 992px){
+@media screen and (max-width: 992px){
+    
+    .black-cover{
+        position: fixed;
+        width: 1000px;
+        height: 60%;
+        background-color: rgb(43, 26, 5);
+        clip-path: none;
+        opacity: 0.8;
+    } 
+
     .video-backgrand{
-        position: absolute;
         top: 0;
         left: 0;
-        width: 9900px;
-        height: 9900px;
         background-size: cover;
-        
+    }
+
+    br{
+        display: none;
+    }
+
+    .coming-soon{
+        position: absolute;
+        left: 10%;
+        top: 6%;
+        font-size: 36px;
+        display: flex;
+        align-items: center;
+    }
+
+    .coming{
+        font-size: 20px;
+        width: 600px;
+        position: absolute;
+        top: 18%;
+    }
+
+    #input-placeholder{
+        width: 450px;
+    }
+
+    .Dad-div{
+        position: absolute;
+        top: 40%;
+        width: 950px;
+    }
+    
+    .div-button{
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        left: 40%;
     }
 }
