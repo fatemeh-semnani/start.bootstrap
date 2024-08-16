@@ -1,0 +1,61 @@
+@media screen and (max-width: 992px){
+    
+    .black-cover{
+        position: fixed;
+        width: 100%;
+        height: 60%;
+        background-color: rgb(49, 30, 7);
+        clip-path: none;
+        opacity: 0.8;
+    } 
+
+    .video-backgrand{
+        top: 0;
+        left: 0;
+        background-size: cover;
+    }
+
+    br{
+        display: none;
+    }
+
+    .coming-soon{
+        position: absolute;
+        left: 10%;
+        top: 6%;
+        font-size: 36px;
+        display: flex;
+        align-items: center;
+    }
+
+    .coming{
+        font-size: 20px;
+        width: 60%;
+        position: absolute;
+        top: 18%;
+    }
+
+    #input-placeholder{
+        width: 50%;
+        left: 11%;
+        top: 35%;
+    }
+
+    .desabled-button{
+        
+        position: absolute;
+        top: 35%;
+        left: 71%;
+    }
+    .Dad-div{
+        display: none;
+    }
+    
+    .div-button{
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        left: 35%;
+        top: 65%;
+    }
+}
