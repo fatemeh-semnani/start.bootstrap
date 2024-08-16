@@ -1,3 +1,36 @@
-@media screen and (min-width: 992px){
+@media screen and (max-width: 477px){
+    .black-cover{
+        height: 65%;
+    }
+
+    .coming{
+       position: absolute;
+       top: 150px;
+    }
+
+    .coming-soon{
+       position: absolute;
+       top: 40px;
+    }
+
+    #input-placeholder{
+        width: 50%;
+        left: 5%;
+        top: 50%;
+    }
+
+    .desabled-button{
+        position: absolute;
+        top: 50%;
+        left: 65%;
+    }
+
+    .div-button{
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        left: 25%;
+        top: 75%;
+    }
     
 }

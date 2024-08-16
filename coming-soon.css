@@ -1,3 +1,12 @@
+@media screen and (min-width: 992px){
+    .Dad-div{
+        display: block;
+    }
+    #div-dad-2{
+        display: none;
+    }
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -69,10 +78,9 @@ html,body{
 
 .desabled-button{
     color: rgb(199, 193, 193);
-    background-color: rgb(128, 87, 44);
+    background-color: rgb(184, 124, 60);
     opacity: 0.6;
     position: absolute;
-  
     left: 60%;
     width: 120px;
     height: 64px;
@@ -80,13 +88,15 @@ html,body{
 }
 
 .dot{
-    /* position: absolute;
-    top: 250px;
-    left: 94%; */
+
     height: 65px;
     width: 65px;
-    background-color: rgb(103, 80, 50);
+    background-color: rgb(122, 95, 59);
     border-radius: 50%;
+  }
+  .dot:hover{
+    cursor: pointer;
+    background-color: rgb(211, 179, 137);
   }
 
   .div-button{
@@ -95,5 +105,5 @@ html,body{
     top: 30%;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 20px;
   }
