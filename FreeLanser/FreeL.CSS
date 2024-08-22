@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+
+.head-div{
+    width: 100%;
+    height: 105px;
+    background-color: rgb(50, 50, 63);
+}
+
+.h1-freelancer{
+    color: white;
+    position: absolute;
+}
