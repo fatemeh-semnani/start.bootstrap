@@ -85,3 +85,38 @@ html,body{
     font-size: 38px;
     color: whitesmoke;
 }
+    
+.div-portfolio {
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(50, 50, 63);
+    font-size: 29px;
+}
+
+#icon-2{
+    font-size: 38px;
+}
+
+.div-img-6{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+}
+
+.img-6{
+    height: 240px;
+    width: 350px;
+    border-radius: 10px;
+    transition: all 0.2s ease-in-out;
+
+}
+
+.img-6:hover{
+    opacity: 0.2;
+    background-color: rgba(26, 188, 156, 0.9);
+}
